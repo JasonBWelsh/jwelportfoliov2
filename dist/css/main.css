@@ -2,12 +2,25 @@
   box-sizing: border; }
 
 body {
-  background: #444;
+  background: url(../img/background.jpg) #444 no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(68, 68, 68, 0.9); }
 
 h1,
 h2,
@@ -45,5 +58,9 @@ main {
     main .icons a {
       padding: .4rem; }
       main .icons a:hover {
-        transiiton: all .4s ease;
+        transition: all .5s ease-out;
         color: #eece1a; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }

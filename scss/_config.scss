@@ -1,6 +1,6 @@
-$primary-color: #444;
+$primary-color: #f9f9f9;
 // $secondary-color: #eece1a;
-$secondary-color: #9eb9e5;
+$secondary-color: #2a61ba;
 $show-home-image: true;
 // $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -26,6 +26,17 @@ $background-opacity: 0.9;
 //                 background: rgba($primary-color, $background-opacity);
 //             }
 //         }
+//     }
+// }
+
+// Set text color
+// @function set-text-color($color) {
+//     @if (lightness($color > 40)) {
+//         @return #000;
+//     }
+
+//     @else {
+//         @return #fff;
 //     }
 // }
 

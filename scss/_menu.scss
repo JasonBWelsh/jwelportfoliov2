@@ -12,7 +12,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: #000;
     }
 
     // Rotate into X with menu lines
@@ -91,7 +91,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url(../img/meProf.jpg) $primary-color no-repeat center center fixed;
+            background: url(../img/meProfSm.jpg) $primary-color;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -123,7 +123,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: #000;
         text-decoration: none;
 
         &:hover {
